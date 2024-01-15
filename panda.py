@@ -3,8 +3,8 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 data = {
-"Jugadores": [Ramos, Casillas, Marcelo, Ronaldo, Boateng],
-"Veces": [ 2, 4, 6, 8, 10, 12]
+"Jugadores": ["Ramos", "Casillas", "Marcelo", "Ronaldo", "Boateng"],
+"Veces": [ 8, 4, 7, 2, 5,]
 }
 df = pd.DataFrame(data)
 
